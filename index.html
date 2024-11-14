@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyLastWish</title>
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="author" content="Khalid Hussain">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+</head>
+<body>
+    <!-- header -->
+    <header class="mylstwish-header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container p-1">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.svg" alt="logo"></a>
+            <li class="nav-item" id="mob-btn">
+              <button class="btn btn-primary" type="button" onclick="window.location.href='tel:+1234567890'">Get Started</button>
+            </li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="assets/img/toggle.svg" alt="toggle">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Why-Choose">Why Choose Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#why-make-a-will">Why Make A Will</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#how-its-work">How It Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#why-will-matters">Why A Will Matters</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Testimonials">Testimonials</a>
+                  </li>
+                <li class="nav-item">
+                  <button class="btn btn-primary" type="button" onclick="window.location.href='tel:+1234567890'">Get Started</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <!-- banner -->
+    <div class="banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                   <div class="banner_content">
+                    <h1><span class="cs-border">Create Your Will Online.</span> <span style="color: #0094FF;">Simple, Secure & Easy.</span> Done In 15 Minute.</h1>
+                    <p class="mb-3 banner-description">You may not live forever, but your wishes can. Use our Online- web app to create your will for just A$99</p>
+                    <button class="btn btn-primary" type="button" onclick="window.location.href='tel:+1234567890'">Get Started</button>
+                   </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end align-items-end">
+                    <img src="assets/img/banner.png" alt="banner" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="container real-container text-center" id="Why-Choose">
+          <div class="row">
+             <div class="col-md-12 mb-5">
+              <h2> Why <span style="color: #0094FF;">Choose</span> Us</h2>
+              <p class="banner-description">Taking control of your future shouldn’t be complicated. Our platform makes it easy to protect what matters—no legal jargon, no paperwork.
+              </p>
+             </div>
+             <div class="col-md-4">
+                <div class="real-lifebx" id="real-txt">
+                   <img src="assets/img/clock.svg" alt="clock" class="img-fluid">
+                   <h3>Fast & Hassle-Free</h3>
+                   <p class="real-txt">Create your will in under 15 minutes—no paperwork, no appointments, just clarity.</p>
+                </div>
+             </div>
+             <div class="col-md-4">
+              <div class="real-lifebx" id="real-txt">
+                <img src="assets/img/leaf.svg" alt="leaf">
+                <h3>Built For Real Life</h3>
+                <p class="real-txt">A modern, streamlined way to take care of what matters most after you go.</p>
+             </div>
+             </div>
+             <div class="col-md-4" id="jargon">
+              <div class="real-lifebx" id="real-txt">
+                <img src="assets/img/book.svg" alt="book">
+                <div class="jardon-txt">
+                  <h3>No Legal Jargon</h3>
+                  <p class="real-txt">Our platform is built to be intuitive and direct, helping you make informed choices without legal confusion.</p>
+                </div>
+             </div>
+             </div>
+          </div>
+        </div>
+        <div class="container line-container">
+           <hr>
+        </div>
+        <div class="container text-center mt-3 mb-3" id="why-make-a-will">
+           <div class="row">
+            <div class="col-md-12 mb-5">
+              <h2> Why <span style="color: #0094FF;">Make</span> A Will? </span></h2>
+              <p class="banner-description"> Planning isn’t just about assets; it’s about caring for the people, pets, and causes that mean the most to you. Create a legacy that reflects your values." 
+                </p>
+             </div>
+             <div class="col-md-3 make-bx" id="mak-bx">
+               <img src="assets/img/family-spend.png" alt="family-spend" class="img-fluid">
+               <h4>For Your Family</h4>
+               <p>Secure your children’s future and ensure they’re in trusted hands</p>
+             </div>
+             <div class="col-md-3 make-bx" id="mak-bx">
+              <img src="assets/img/pets.png" alt="pets" class="img-fluid">
+              <h4>For Your Pets</h4>
+              <p> Provide a plan for your pets — because they’re family too.</p>
+             </div>
+             <div class="col-md-3 make-bx" id="mak-bx">
+              <img src="assets/img/groups-man.png" alt="groups-man" class="img-fluid">
+              <h4>For Causes That Matter</h4>
+              <p>Leave a legacy that supports charities or causes close to your heart.</p>
+             </div>
+             <div class="col-md-3 make-bx" id="mak-bx">
+              <img src="assets/img/sad-girls.png" alt="sad-girls" class="img-fluid">
+              <h4>For Peace of Mind</h4>
+              <p>Uncertainty is part of life; give your loved ones clarity and direction when they need it most.</p>
+             </div>
+           </div>
+        </div>
+    </div>
+    <!-- how it work -->
+     <div class="work" id="how-its-work">
+        <div class="container">
+           <div class="row"> 
+              <div class="col-md-12 mb-5 text-center">
+                <h2>How It Works</h2>
+                <p class="banner-description text-white"> Making a will shouldn’t feel daunting. With a few simple steps, our platform guides you through a clear, approachable process to gain peace of mind.
+                </p>
+              </div>
+           </div>
+           <div class="row wishes">
+              <div class="col-md-4">
+                 <div class="wishes-content d-flex">
+                    <div class="wishes-img p-3">
+                        <img src="assets/img/question.svg" alt="question" class="img-fluid">
+                    </div>
+                    <div class="wishes-txt p-3">
+                       <h5><span style="color: #007BFF;">1.</span> Tell Us What’s Important</h5>
+                       <p>Answer a few essential questions to shape your will.</p>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-4">
+                <div class="wishes-content d-flex">
+                   <div class="wishes-img p-3">
+                       <img src="assets/img/hand.svg" alt="hand" class="img-fluid">
+                   </div>
+                   <div class="wishes-txt p-3">
+                      <h5><span style="color: #007BFF;">2.</span> Customize Your Wishes</h5>
+                      <p>Assign assets, choose beneficiaries, and finalize your plan.</p>
+                   </div>
+                </div>
+             </div>
+             <div class="col-md-4">
+              <div class="wishes-content d-flex">
+                 <div class="wishes-img p-3">
+                     <img src="assets/img/download.svg" alt="download" class="img-fluid">
+                 </div>
+                 <div class="wishes-txt p-3">
+                    <h5><span style="color: #007BFF;">3.</span>  Download Anytime</h5>
+                    <p>Access and update your will whenever life changes.</p>
+                 </div>
+              </div>
+           </div>
+           </div>
+        </div>
+     </div>
+
+     <!-- matters -->
+      <div class="matters" id="why-will-matters">
+         <div class="container-fluid">
+             <div class="row">
+               <div class="container">
+                  <div class="row">
+                    <div class="col-md-12 mb-5 text-center">
+                     <div class="matter-content">
+                      <h2>Why A <span style="color: #0094FF;">Will</span> Matters</h2>
+                      <p class="banner-description">Life is unpredictable. A will gives your loved ones certainty, ensures your wishes are followed, and protects what’s important—whatever life brings.
+                      </p>
+                     </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 p-0">
+                <div class="bg-matters">
+
+                  <div class="container">
+                    <div class="row">
+                       <div class="col-md-3">
+                         <div class="loved">
+                           
+                           <img src="assets/img/love.svg" alt="love">
+                           <h5>Ease for Loved Ones</h5>
+                           <p>A modern, streamlined way to take care of what matters most after you go.</p>
+ 
+                         </div>
+                       </div>
+                       <div class="col-md-3">
+                         <div class="loved">
+                           <img src="assets/img/protections.svg" alt="protections">
+                           <h5>Protection for Your Children</h5>
+                           <p>Make guardianship decisions now to ensure your kids are raised by the people you trust.</p>
+                         </div>
+                       </div>
+                       <div class="col-md-3">
+                         <div class="loved">
+                           <img src="assets/img/sequirty.svg" alt="sequirty">
+                           <h5>Security for Your Pets</h5>
+                           <p>Set up care for your pets, so they’re always looked after.</p>
+                         </div>
+                       </div>
+                       <div class="col-md-3">
+                          <div class="loved">
+                           <img src="assets/img/flexibities.svg" alt="flexibities" class="flexibities">
+                           <h5>Flexibility </h5>
+                           <p>Life changes, and your will can too—our platform lets you edit and update anytime.</p>
+                          </div>
+                       </div>
+                    </div>
+                  </div>
+
+                </div>
+                 
+               </div>
+               <div class="col-md-12 mb-5">
+                  <div class="container">
+                      <div class="row">
+                         <div class="col-md-12">
+                          <section id="faq" class="faq-section">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-md-12 mb-5 text-center">
+                                  <h2 class="text-center mt-5">FAQ</h2>
+                                </div>
+                                <div class="col-md-12">
+                                  <div class="accordion" id="faqAccordion">
+                                    <!-- FAQ Item 1 -->
+                                    <div class="accordion-item">
+                                      <h3 class="accordion-header" id="faq-heading-1">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                          Is this legally binding in Australia?
+                                        </button>
+                                      </h3>
+                                      <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq-heading-1" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                          Yes, our wills are legally recognized and valid in Australia.
+                                        </div>
+                                      </div>
+                                    </div>
+                          
+                                    <!-- FAQ Item 2 -->
+                                    <div class="accordion-item">
+                                      <h3 class="accordion-header" id="faq-heading-2">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                          How secure is my information?
+                                        </button>
+                                      </h3>
+                                      <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq-heading-2" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                          Our platform uses state-of-the-art encryption and secure servers.
+                                        </div>
+                                      </div>
+                                    </div>
+                          
+                                    <!-- FAQ Item 3 -->
+                                    <div class="accordion-item">
+                                      <h3 class="accordion-header" id="faq-heading-3">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                          What if I change my mind?
+                                        </button>
+                                      </h3>
+                                      <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq-heading-3" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                          You can update your will at any time with a few simple clicks.
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                          
+                         </div>
+                      </div>
+                  </div>
+               </div>
+               <div class="col-md-12 text-center" id="Planning">
+                 <div class="Planning">
+                  <h3>Join Hundreds Who’ve Simplified Estate Planning</h3>
+                  <P>"From parents to pet owners to entrepreneurs, people are taking control of their future with  ease and simplicity. Start yours today—your future self (and family) will thank you."</P>
+                  <button class="btn btn-primary">Start Protecting What Matters. Create Your Will Today for Just A$99</button>
+                 </div>
+               </div>
+             </div>
+         </div>
+      </div>
+
+      <div class="client_reviews" id="Testimonials">
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-md-12 text-center mb-5 client-txt">
+              <h2>Testimonials</h2>
+              <!-- <p class="banner-description">If you’re tired of feeling stuck, overwhelmed, and unappreciated at work, it’s time to make a change. Imagine waking up excited about your career </p> -->
+             </div>
+            <div class="col-md-12">
+              <div id="carouselExample1" class="carousel slide1" data-bs-ride="carousel1">
+                <div class="carousel-inner">
+                  
+                  <!-- Slide 1 -->
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                            <img src="assets/img/left-quote.svg" alt="left-quote">
+                            <div class="rating-stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                            <div class="auther">
+                                <strong>Emily T</strong>
+                                <!-- <P>Oct 12, 2024</P> -->
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>“I was able to plan for my kids and my dog, knowing they’ll be cared for no matter what.” </p>
+                          <div class="auther">
+                              <strong>Daniel M</strong>
+                              <!-- <P>Oct 12, 2024</P> -->
+                          </div>
+                      </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>“No fuss, no confusion. It was great to have a quick, secure way to set up my will.” </p>
+                          <div class="auther">
+                              <strong>Lily P.</strong>
+                              <!-- <P>Oct 12, 2024</P> -->
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                            <img src="assets/img/left-quote.svg" alt="left-quote">
+                            <div class="rating-stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                            <div class="auther">
+                                <strong>Emily T</strong>
+                                <!-- <P>Oct 12, 2024</P> -->
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>“I was able to plan for my kids and my dog, knowing they’ll be cared for no matter what.” </p>
+                          <div class="auther">
+                              <strong>Daniel M</strong>
+                              <!-- <P>Oct 12, 2024</P> -->
+                          </div>
+                      </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>“No fuss, no confusion. It was great to have a quick, secure way to set up my will.” </p>
+                          <div class="auther">
+                              <strong>Lily P.</strong>
+                              <!-- <P>Oct 12, 2024</P> -->
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Slide 3 -->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                            <img src="assets/img/left-quote.svg" alt="left-quote">
+                            <div class="rating-stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                            <div class="auther">
+                                <strong>Emily T</strong>
+                                <!-- <P>Oct 12, 2024</P> -->
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>“I was able to plan for my kids and my dog, knowing they’ll be cared for no matter what.” </p>
+                          <div class="auther">
+                              <strong>Daniel M</strong>
+                              <!-- <P>Oct 12, 2024</P> -->
+                          </div>
+                      </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>“No fuss, no confusion. It was great to have a quick, secure way to set up my will.” </p>
+                          <div class="auther">
+                              <strong>Lily P.</strong>
+                              <!-- <P>Oct 12, 2024</P> -->
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+            
+                <!-- Carousel Controls -->
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button> -->
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+
+      
+      <div class="client_reviews" id="Testimonials-mobo">
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-md-12 text-center mb-5 client-txt">
+              <h2>Testimonials</h2>
+              <p class="banner-description">If you’re tired of feeling stuck, overwhelmed, and unappreciated at work, it’s time to make a change. Imagine waking up excited about your career </p>
+             </div>
+            <div class="col-md-12">
+              <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+                <div class="carousel-inner">
+                  
+                  <!-- Slide 1 -->
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                            <img src="assets/img/left-quote.svg" alt="left-quote">
+                            <div class="rating-stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                            <div class="auther">
+                                <strong>Emily T</strong>
+                                <P>Oct 12, 2024</P>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                          <div class="auther">
+                              <strong>Emily T</strong>
+                              <P>Oct 12, 2024</P>
+                          </div>
+                      </div>
+                      </div> -->
+                      <!-- <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                          <div class="auther">
+                              <strong>Emily T</strong>
+                              <P>Oct 12, 2024</P>
+                          </div>
+                      </div>
+                      </div> -->
+                    </div>
+                  </div>
+                  
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                            <img src="assets/img/left-quote.svg" alt="left-quote">
+                            <div class="rating-stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                            <div class="auther">
+                                <strong>Emily T</strong>
+                                <P>Oct 12, 2024</P>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                          <div class="auther">
+                              <strong>Emily T</strong>
+                              <P>Oct 12, 2024</P>
+                          </div>
+                      </div>
+                      </div> -->
+                      <!-- <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                          <div class="auther">
+                              <strong>Emily T</strong>
+                              <P>Oct 12, 2024</P>
+                          </div>
+                      </div>
+                      </div> -->
+                    </div>
+                  </div>
+                  
+                  <!-- Slide 3 -->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="bg-lightss">
+                            <img src="assets/img/left-quote.svg" alt="left-quote">
+                            <div class="rating-stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                            <div class="auther">
+                                <strong>Emily T</strong>
+                                <P>Oct 12, 2024</P>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                          <div class="auther">
+                              <strong>Emily T</strong>
+                              <P>Oct 12, 2024</P>
+                          </div>
+                      </div>
+                      </div> -->
+                      <!-- <div class="col-4">
+                        <div class="bg-lightss">
+                          <img src="assets/img/left-quote.svg" alt="left-quote">
+                          <div class="rating-stars">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                          <p>"It was surprisingly easy. Knowing my family’s set up gives me so much peace of mind." </p>
+                          <div class="auther">
+                              <strong>Emily T</strong>
+                              <P>Oct 12, 2024</P>
+                          </div>
+                      </div>
+                      </div> -->
+                    </div>
+                  </div>
+                  
+                </div>
+            
+                <!-- Carousel Controls -->
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button> -->
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+
+
+      <!-- footer -->
+       <footer class="lastwish-footer">
+          <div class="container">
+             <div class="row">
+                <div class="col-md-12 text-center">
+                  <img src="assets/img/footer-logo.svg" alt="footer-logo" width="100%" height="100%">
+
+                  <ul class="footer-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Why-Choose">Why Choose Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#why-make-a-will">Why Make A Will</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-its-work">How It Works</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#why-will-matters">Why A Will Matters</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Testimonials">Testimonials</a>
+                      </li>
+                  </ul>
+                    <p>
+                      ©2024 <a href="https://www.sassr.com" target="_blank" rel="noopener noreferrer" class="sassr">SASSR Pty Ltd</a> - All Rights Reserved
+                    </p>
+                </div>
+             </div>
+          </div>
+       </footer>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/script.js"></script>
+<!-- <script src="assets/js/bootstrap.bundle.js"></script> -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
